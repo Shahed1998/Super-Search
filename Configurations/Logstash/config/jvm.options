@@ -24,6 +24,10 @@
 # Set the locale country
 #-Duser.country=US
 
+# Set the locale timezone
+-Duser.timezone=Asia/Dhaka
+
+
 # Set the locale variant, if any
 #-Duser.variant=
 

@@ -484,6 +484,7 @@
       <tokenizer name="whitespace"/>
     </analyzer>
   </fieldType>
+  <field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
   <field name="CountryName" type="text_ngram_ed" indexed="true" uninvertible="false" stored="true"/>
   <field name="_root_" type="string" indexed="true" stored="false"/>
   <field name="_src_" type="string" indexed="false" stored="true"/>
@@ -496,7 +497,6 @@
   <field name="content_type" type="string" multiValued="true" indexed="true" stored="true"/>
   <field name="description" type="text_general" indexed="true" stored="true"/>
   <field name="features" type="text_general" uninvertible="true" multiValued="true" indexed="true" stored="true"/>
-  <field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
   <field name="inStock" type="boolean" indexed="true" stored="true"/>
   <field name="includes" type="text_general" uninvertible="true" termPositions="true" termVectors="true" indexed="true" termOffsets="true" stored="true"/>
   <field name="keywords" type="text_general" indexed="true" stored="true"/>
