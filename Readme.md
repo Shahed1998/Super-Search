@@ -62,3 +62,4 @@ A RESTful API queries Solr and returns search results to client applications suc
 
 ⭐ REST API service (ASP.NET / Java / Node.js, etc.)
 ```
+
